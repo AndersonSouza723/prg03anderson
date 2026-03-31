@@ -43,7 +43,7 @@ public class InterfaceCalculator extends javax.swing.JFrame {
         lblAskYear.setText("Informe o seu ano de nascimento:");
 
         btnSubmitYear.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btnSubmitYear.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jacks\\Pictures\\imgForProjects\\calculator.jpg")); // NOI18N
+        btnSubmitYear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade03/images/calculator.jpg"))); // NOI18N
         btnSubmitYear.setText("Confirmar");
         btnSubmitYear.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmitYear.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

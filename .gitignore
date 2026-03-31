@@ -1,0 +1,12 @@
+nbactions.xml
+nbproject/private/
+build/
+dist/
+nbbuild/
+tmp/
+
+
+/target/
+
+.DS_Store
+Thumbs.db
