@@ -25,8 +25,7 @@ public class PagamentoPix implements Pagamento {
                            "Valor pagamento: R$ " + valor +
                            "<br>Com o pagamento no pix, você recebeu 2% de cashback nessa compra!!" + 
                            "<br>Valor do cashback: R$ " + String.format("%.2f", this.calcularCashback()) +
-                           "====== Loga Swing agradece! ====== <html>";
-        
+                           "<br>====== O mercado Swing agradece! ====== <html>";        
         return reciboPix;
     }
 }
